@@ -11,7 +11,8 @@ const PnLCard = ({
     totalPnLPercentage: 25.4,
     traderPubkey: "AKzqHXo2MkNsD5ifTMDFKYXvqXX5wQGP5vrwkbKvEhrg"
   },
-  onImageGenerated = (dataUrl: string) => {}
+  onImageGenerated = (dataUrl: string) => {},
+  selectedBackground = '/bg.png'
 }) => {
   const elementRef = useRef<HTMLDivElement>(null);
 
@@ -35,14 +36,14 @@ const PnLCard = ({
         console.error('Error generating image:', error);
       });
     }
-  }, [data, onImageGenerated]);
+  }, [data, onImageGenerated, selectedBackground]);
 
   return (
     <div 
       ref={elementRef}
       className="relative w-[1920px] h-[1080px] overflow-hidden"
       style={{
-        backgroundImage: 'url(/bg.png)',
+        backgroundImage: `url(${selectedBackground})`,
         backgroundSize: 'cover',
         backgroundPosition: 'center'
       }}

@@ -3,8 +3,9 @@ Traders can trade a proposal and then create a pnl image that will show their tr
 They can share this image in social media and induce a lot of fomo in others because they made so much money trading fr.
 
 
-Here's how the generated website looks
+Here's how the generated website looks (latest version allows changing background image! Wow!)
 ![](/pnl.png)
+![](/Robin.png)
 
 
 go to localhost:3000/test to view the pnl image generator!
