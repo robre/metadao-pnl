@@ -1,8 +1,17 @@
-#
+# This Repo generates a beautiful PnL image for Socials
+Traders can trade a proposal and then create a pnl image that will show their trade success of failure in numbers.
+They can share this image in social media and induce a lot of fomo in others because they made so much money trading fr.
 
+
+Here's how the generated website looks
 ![](/pnl.png)
 
 
+go to localhost:3000/test to view the pnl image generator!
+
+
+## TODOS
+use the user performance endpoint to make it actually work with real numbers. Problem is that the enpoint gives us some wrong data it seems lol
 
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
